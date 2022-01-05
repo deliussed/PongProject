@@ -1,0 +1,16 @@
+
+rancher:
+  network:
+    interfaces:
+      eth0:
+        address: 192.168.10.241/24
+        gateway: 192.168.10.1
+        dhcp: false
+    dns:
+      nameservers:
+        - 192.168.10.1
+        - 8.8.8.8
+ 
+ssh_authorized_keys:
+  - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCiGp28bEL/S8lzfLEBgNEUPr3Q7xvuvOYJg8vffa+ykzPfMj2YB7cLJWwYMynrd4F0MHNzTAdJXcKCUU/Z2nh8W3jYMQcpHw1B0yy1k2WlfsCJjr+cQXncU97CcEaiGv/yoEdcwxLgBwJqciAezLOEHxjfU++MESkZRZ8OqxFazspcO5MygP+8VbbRPDKjj/n4zQVCtukDVXkCIF75H12kIE3bff3Oaq6o9BtSuVsUxYrUc7ES9fFJmg3r9pA7xTMd9YAQHWzNuNJfP2vGgBp68SK2sIErL2A+h+NxhzCaBYgHO0drGgkMrhfu6rp0gz6fNJp1RyG8UzVGxCOdzTOn tommy@DESKTOP-S728TIM
+  - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQC3jRCDlyZjlIaYk1sPURFjNI/KX9FkcdioL1+nm5ryHo0jQrUmrluONzASZ455++J6DYb+v/Ud5vqwGstAJzMH0UGjD2eqLYuRRMQThJ0p0PjAI3Paj4mna8XwUcP1Zmlipp14qZ2jG4dyUvdjWmn0ZH8P4wx+XhujlsTLox2bOEAKNRmNtZaq0TPJbjQSTgc7yMFWJdYlr5Csh0/JGLTwHJAV4oNU0J7x95W5rr+R45WhbObWQh8Sw/fTnOhXb8Jj8WIyqp/A/gkW5humyYF2uz37eCOUU/OVvG/qkNffG7FD1e122iED0twCowWwCuK6nkGyJfTlRYS0G80HHMzhN/6X0/PV/wBBvQ5DbCcQ6YtXjicrCVx3Rvj/sS+GYKofi9hng6DT9exT8pQqMiyrfKCESdR23s9PUTm9384l5BBRhU+CohEdYBmIOqYg8qI5ezi2kukGw3xTJEw1UtXiM8MLh4IMXfdnRdVrg4j55gRsLrUEIbCPpMsbmEkrY1c= tommy@penguin
